@@ -13,7 +13,7 @@ local currentTarget = nil
 -- Resize HumanoidRootPart untuk menghindari stuck
 local function resizeHumanoidRootPart()
     if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
-        player.Character.HumanoidRootPart.Size = Vector3.new(1.25, 60, 1.25)
+        player.Character.HumanoidRootPart.Size = Vector3.new(1.25, 10, 1.25)
     end
 end
 
